@@ -1,23 +1,33 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Conditional operator");
+        System.out.println("Conditional operator Part_1");
 
-        task1();
-        task2();
-        task3();
-        task4();
-        task5();
-        task6();
-        task7();
-        task8();
-        task9();
+        task1_1();
+        task1_2();
+        task1_3();
+        task1_4();
+        task1_5();
+        task1_6();
+        task1_7();
+        task1_8();
+        task1_9();
 
-        System.out.println("Homework_3 Complete");
+        System.out.println("Homework_3 Part_1 Complete");
+
+        System.out.println("Conditional operator Part_2");
+
+        task2_1();
+        task2_2();
+        task2_3();
+        task2_4();
+        task2_5();
+
+        System.out.println("Homework_3 Part_2 Complete");
     }
 
-    //task1
-    public static void task1() {
-        System.out.println("Task_1");
+    //task1_1
+    public static void task1_1() {
+        System.out.println("Task_1-1");
         int age = 18;
         if (age>=18) {
             System.out.println("Happy birthday!!!");
@@ -28,9 +38,9 @@ public class Main {
         System.out.println(" ");
     }
 
-    //task2
-    public static void task2() {
-        System.out.println("Task_2");
+    //task1_2
+    public static void task1_2() {
+        System.out.println("Task_1-2");
         int age = 18;
         if (age>=7&&age<=17) {
             System.out.println("Welcome to school, student!");
@@ -44,9 +54,9 @@ public class Main {
         System.out.println(" ");
     }
 
-    //task3
-    public static void task3() {
-        System.out.println("Task_3");
+    //task1_3
+    public static void task1_3() {
+        System.out.println("Task_1-3");
         int quantityPassengers = 30;
         int capacityTrain = 102;
         int seatPlace = 60;
@@ -63,9 +73,9 @@ public class Main {
         System.out.println(" ");
     }
 
-    //task4
-    public static void task4() {
-        System.out.println("Task_4");
+    //task1_4
+    public static void task1_4() {
+        System.out.println("Task_1-4");
         int age = 18;
         if (age>=18) {
             System.out.println("Happy birthday!!!");
@@ -75,9 +85,9 @@ public class Main {
         System.out.println(" ");
     }
 
-    //task5
-    public static void task5() {
-        System.out.println("Task_5");
+    //task1_5
+    public static void task1_5() {
+        System.out.println("Task_1-5");
         int age = 18;
         if (age>=7&&age<=17) {
             System.out.println("Welcome to school, student!");
@@ -89,9 +99,9 @@ public class Main {
         System.out.println(" ");
     }
 
-    //task6
-    public static void task6() {
-        System.out.println("Task_6");
+    //task1_6
+    public static void task1_6() {
+        System.out.println("Task_1-6");
         int quantityPassengers = 70;
         int capacityTrain = 102;
         int seatPlace = 60;
@@ -106,9 +116,9 @@ public class Main {
         System.out.println(" ");
     }
 
-    //task7
-    public static void task7() {
-        System.out.println("Task_7");
+    //task1_7
+    public static void task1_7() {
+        System.out.println("Task_1-7");
         int age = 22;
         if (age>=2&&age<=6) {
             System.out.println("Если возраст человека равен " + age + ", то ему нужно ходить в детский сад");
@@ -124,9 +134,9 @@ public class Main {
         System.out.println(" ");
     }
 
-    //task8
-    public static void task8() {
-        System.out.println("Task_8");
+    //task1_8
+    public static void task1_8() {
+        System.out.println("Task_1-8");
         int age = 3;
         if (age<5) {
             System.out.println("Если ребенку " + age + " лет, он не может кататься на атракционе");
@@ -139,9 +149,9 @@ public class Main {
         System.out.println(" ");
     }
 
-    //task9
-    public static void task9() {
-        System.out.println("Task_9");
+    //task1_9
+    public static void task1_9() {
+        System.out.println("Task_1-9");
         int one = 1;
         int two = 2;
         int free = 3;
@@ -155,4 +165,110 @@ public class Main {
         }
         System.out.println(" ");
     }
+
+    //task2_1
+    public static void task2_1() {
+        System.out.println("Task_2-1");
+        int clientOS = 0;
+        if (clientOS==0) {
+            System.out.println("Установите приложение iOS по ссылке");
+        } else {
+            System.out.println("Установите приложение Android по ссылке");
+        }
+        System.out.println(" ");
+    }
+
+    //task2_2
+    public static void task2_2() {
+        System.out.println("Task_2-2");
+        int clientOS = 0;
+        int clientDeviceYear = 2015;
+
+        if (clientOS == 0) {
+            if (clientDeviceYear < 2015) {
+                System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            } else {
+                System.out.println("Установите приложение iOS по ссылке");
+            }
+        }
+        if (clientOS != 0) {
+            if (clientDeviceYear < 2015) {
+                System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            } else {
+                System.out.println("Установите приложение Android по ссылке");
+            }
+        }
+        System.out.println(" ");
+    }
+
+    //task2_3
+    public static void task2_3() {
+        System.out.println("Task_2-3");
+        int year = 2021;
+
+        if (year % 4==0 && year % 100!=0 || year % 400==0) {
+            System.out.println(year + " год является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        }
+        System.out.println(" ");
+    }
+
+    //task2_4
+    public static void task2_4() {
+        System.out.println("Task_2-4");
+        int deliveryDistance = 95;
+        int deliveryLongDistance = (deliveryDistance / 40) + 1;
+        System.out.println("Потребуется дней: " + deliveryLongDistance);
+        System.out.println(" ");
+    }
+
+    //task2_5
+    public static void task2_5() {
+        System.out.println("Task_2-5");
+        int monthNumber = 12;
+
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Январь (Зима)");
+                break;
+            case 2:
+                System.out.println("Февраль (Зима)");
+                break;
+            case 3:
+                System.out.println("Март (Весна)");
+                break;
+            case 4:
+                System.out.println("Апрель (Весна)");
+                break;
+            case 5:
+                System.out.println("Май (Весна)");
+                break;
+            case 6:
+                System.out.println("Июнь (Лето)");
+                break;
+            case 7:
+                System.out.println("Июль (Лето)");
+                break;
+            case 8:
+                System.out.println("Август (Лето)");
+                break;
+            case 9:
+                System.out.println("Сентябрь (Осень)");
+                break;
+            case 10:
+                System.out.println("Октябрь (Осень)");
+                break;
+            case 11:
+                System.out.println("Ноябрь (Осень)");
+                break;
+            case 12:
+                System.out.println("Декабрь (Зима)");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
+        }
+        System.out.println(" ");
+    }
 }
+
